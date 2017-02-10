@@ -1,0 +1,31 @@
+{
+  "name": "protest-works-bootstrap",
+  "version": "0.0.1",
+  "description": "Bootstrap server for protest.works network",
+  "main": "app.js",
+  "dependencies": {
+    "async": "^2.1.4",
+    "libp2p-ipfs-nodejs": "^0.17.9",
+    "multiaddr": "^2.2.0",
+    "peer-id": "^0.8.1",
+    "peer-info": "^0.8.2",
+    "pull-pushable": "^2.0.1",
+    "pull-stream": "^3.5.0",
+    "restify": "^4.3.0"
+  },  
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iaaaan/protest.works-node.git"
+  },
+  "author": "Ian Ardouin-Fumat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iaaaan/protest.works-node/issues"
+  },
+  "homepage": "https://github.com/iaaaan/protest.works-node#readme"
+}
